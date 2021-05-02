@@ -150,4 +150,10 @@
         </plugins>
     </build>
 
+    <developers>
+        <developer>
+            <name>Fabio Alex Longo</name>
+            <email>fabioalexlongo@gmail.com</email>
+        </developer>
+    </developers>
 </project>
