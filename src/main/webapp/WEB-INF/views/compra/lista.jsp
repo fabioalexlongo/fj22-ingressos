@@ -36,7 +36,7 @@
                                     <td>${ingresso.sessao.sala.nome}</td>
                                     <td>${ingresso.lugar}</td>
                                     <td>${ingresso.tipoDeIngresso}</td>
-                                    <td>${ingresso.preco}</td>
+                                    <td>${sessao.preco}</td>
                                 </tr>
                             </c:forEach>
                         </tbody>
