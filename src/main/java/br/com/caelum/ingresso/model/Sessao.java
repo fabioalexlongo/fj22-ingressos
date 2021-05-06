@@ -10,6 +10,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+import java.util.List;
+import java.util.Map;
+
 @Entity
 public class Sessao {
 
@@ -39,6 +42,10 @@ public class Sessao {
 	    this.preco = sala.getPreco().add(filme.getPreco());
 	}
 
+	public Map<String, List<Lugar>> getMapaDeLugares(){
+		return sala.getMapaDeLugares();
+	}
+	
 	public Integer getId() {
 		return id;
 	}
